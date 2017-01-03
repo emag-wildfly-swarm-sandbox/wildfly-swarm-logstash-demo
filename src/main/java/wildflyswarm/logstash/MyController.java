@@ -11,6 +11,13 @@ public class MyController {
   private static final Logger LOG = Logger.getLogger(MyController.class);
 
   @GET
+  @Path("/debug")
+  public String debug() {
+    LOG.debug("debug");
+    return "debug";
+  }
+
+  @GET
   @Path("/info")
   public String info() {
     LOG.info("info");
@@ -29,6 +36,12 @@ public class MyController {
   public String error() {
     LOG.error("error");
     return "error";
+  }
+
+  @GET
+  @Path("/exception")
+  public String exception() {
+    throw new RuntimeException();
   }
 
 }

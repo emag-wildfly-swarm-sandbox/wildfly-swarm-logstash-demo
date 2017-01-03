@@ -21,7 +21,7 @@ $ ./mvnw clean package &&\
 
 ### Check Logstash console
 
-If you access the app API(`/info, /warn, /error`), you can see the following log in Logstash console.
+If you access the app APIs[1], you can see the following log in Logstash console.
 
 ```
 {
@@ -42,3 +42,11 @@ If you access the app API(`/info, /warn, /error`), you can see the following log
           "loggerName" => "wildflyswarm.logstash.MyController"
 }
 ```
+
+[1] APIs
+
+* /debug
+* /info
+* /warn
+* /error
+* /exception
