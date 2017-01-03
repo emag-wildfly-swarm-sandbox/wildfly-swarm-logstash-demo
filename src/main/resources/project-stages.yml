@@ -1,0 +1,10 @@
+foo.bar: dummy
+
+---
+project:
+  stage: logstash
+swarm:
+  logstash:
+    hostname: localhost
+    port: 9300
+    level: INFO
