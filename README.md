@@ -23,7 +23,7 @@ $ ./mvnw clean package &&\
 
 If you access the app API(`/info, /warn, /error`), you can see the following log in Logstash console.
 
-``` json
+```
 {
      "loggerClassName" => "org.jboss.logging.Logger",
                "level" => "INFO",
