@@ -21,7 +21,7 @@ $ ./mvnw clean package &&\
 
 ### Check Logstash console
 
-If you access the app [APIs][#apis], you can see the following log in Logstash console.
+If you access the app [APIs](#apis), you can see the following log in Logstash console.
 
 ```
 {
